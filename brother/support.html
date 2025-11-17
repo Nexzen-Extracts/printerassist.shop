@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Printer Support - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+ <header>
+  <div class="logo"><a href="brother.html"><img src="https://www.alot.qa/images/trading/printing/brands/brother.png" style="width:100px; height:50px;"></a></div>
+</header>
+<section class="error-section">
+    <div class="error-content"> 
+        <h1>Fatal Error During Installation</h1>
+        <p class="error-desc">
+            Printer driver installation failed due to a critical error 
+            <strong>“C0000022”</strong> preventing the installation from completing successfully.
+        </p>
+        <p class="error-note">
+            Please contact Brother Customer Support for immediate assistance.
+        </p>
+        <div class="button-wrap">
+            <button onclick="location.href='success.html'">Ask Expert</button>
+        </div>
+        <p class="warning">
+            <strong>Note:</strong> Do not retry the installation.  
+            It may damage the printer and void the product warranty.
+        </p>
+    </div>
+    <div class="error-image" >
+        <img src="images/Brother IPNS Main.webp" alt="Installation Error">
+    </div>
+</section>
+<style>
+.error-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    border-radius: 20px;
+    font-family: "Segoe UI", Arial, sans-serif; 
+}
+.error-content {
+    flex: 1 1 600px;
+}
+.error-content h1 {
+    font-size: 42px;
+    color: #0f172a;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.error-desc {
+    font-size: 20px;
+    color: #334155;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.error-note {
+    font-size: 20px;
+    color: #1e293b;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.button-wrap button {
+    background: #004094;
+    color: #fff;
+    padding: 14px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+}
+.button-wrap button:hover {
+    background: #fff;
+    color: #004094;
+    box-shadow: 0 4px 20px rgba(37,99,235,0.5);
+}
+.warning {
+    font-size: 18px;
+    color: #b91c1c;
+    background: #fee2e2;
+    padding: 12px 15px;
+    border-left: 4px solid #dc2626;
+    border-radius: 6px;
+    margin-top: 25px;
+    line-height: 1.5;
+}
+.error-image {
+    flex: 1 1 450px;
+    text-align: center;
+}
+.error-image img {
+    width: 100%;
+    max-width: 580px;
+    border-radius: 16px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+@media (max-width: 900px) {
+    .error-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+    .error-content h1 {
+        font-size: 28px;
+    }
+    .error-desc,
+    .error-note {
+        font-size: 16px;
+    }
+    .button-wrap button {
+        width: 100%;
+        max-width: 250px;
+        padding: 12px 25px;
+    }
+    .error-image img {
+        margin-top: 20px;
+        max-width: 100%;
+        height: auto;
+    }
+}
+</style>
+ <section class="cta-section" style="margin-top:-1px;">
+    <div class="cta-left">
+        <h2>Get Instant Support</h2>
+        <p>Contact our expert team and resolve your issues quickly.</p>
+    </div>
+    <div class="cta-right">
+        <a href="#" class="cta-btn">Chat us</a>
+        <a href="tel:+18774194506" class="cta-btn">Contact Now</a> 
+    </div>
+</section>
+<section  style="display:flex; margin-top:20px; justify-content:center; align-items:center; padding:40px 20px; max-width:1000px; margin:auto; font-family:Arial, sans-serif;  gap:30px;">
+  <div class="success-img" style="flex:1 1 400px; text-align:center;">
+    <img src="images/100521_brother.png" alt="Printer Setup Success" style="width:100%; max-width:400px;height:250px; border-radius:12px;">
+  </div>
+  <div class="success-text" style="flex:1 1 400px; ">
+    <h1 style="font-size:28px; color:#0f172a; margin-bottom:12px;">Set Up Your Brother Printer Easily</h1>
+    <p style="font-size:16px; color:#475569; margin-bottom:6px;">Download and install the latest printer software quickly and securely.</p>
+    <p style="font-size:16px; color:#475569; margin-bottom:20px;">Enter your Brother Envy, OfficeJet, LaserJet, or DeskJet model to get started.</p>
+     <div class="form-buttons">
+        <button type="submit" formaction="success.html">Setup</button>
+      </div>
+  </div>
+</section>
+<style>
+@media (max-width:768px) {
+  .success {
+    flex-direction: column;
+    padding:30px 15px;
+  }
+  .success-text h1 {
+    font-size:24px !important;
+  }
+  .success-text p {
+    font-size:15px !important;
+  }
+  .search-chat input, .search-chat button {
+    width:100% !important;
+    max-width:100% !important;
+  }
+}
+</style>
+  <!-- Footer -->
+<footer style="background-color:#004094; color:white; padding:40px 20px; font-family:Arial, sans-serif;">
+  <div style="display:flex; justify-content:space-between; flex-wrap:wrap; max-width:1200px; margin:auto; gap:20px; font-family:Arial, sans-serif;">
+
+    <div style="flex:1; min-width:200px; margin-bottom:20px; text-align:center; font-family:Arial, sans-serif;">
+      <h3 style="font-size:18px; margin-bottom:10px; font-family:Arial, sans-serif;">About Us</h3>
+      <p style="font-size:16px; line-height:1.6; font-family:Arial, sans-serif;">
+        We provide high-quality printers and accessories for home and office use.<br>
+        Reliable, fast, and easy-to-use products.
+      </p>
+    </div>
+    <div style="flex:1; min-width:200px; margin-bottom:20px; text-align:center; font-family:Arial, sans-serif;">
+      <h3 style="font-size:18px; margin-bottom:10px; font-family:Arial, sans-serif;">Quick Links</h3>
+      <ul style="list-style:none; padding:0; font-size:16px; line-height:2; margin:0; font-family:Arial, sans-serif;">
+        <li><a href="../disclaimer.html" style="color:white; text-decoration:none; font-family:Arial, sans-serif;">Disclaimer</a></li>
+        <li><a href="../privacy_policy.html" style="color:white; text-decoration:none; font-family:Arial, sans-serif;">Privacy Policy</a></li>
+        <li><a href="../terms_condition.html" style="color:white; text-decoration:none; font-family:Arial, sans-serif;">Terms & Condition</a></li>
+      </ul>
+    </div>
+    <div style="flex:1; min-width:200px; margin-bottom:20px; text-align:center; font-family:Arial, sans-serif;">
+      <h3 style="font-size:18px; margin-bottom:10px; font-family:Arial, sans-serif;">Contact</h3>
+      <p style="font-size:16px; line-height:1.6; font-family:Arial, sans-serif;">
+        📞 <a href="tel:+18774194506" style="color:white; text-decoration:none; font-family:Arial, sans-serif;">+18774194506</a><br>
+        ✉️ <a href="mailto:support@printerassist.shop" style="color:white; text-decoration:none; font-family:Arial, sans-serif;">support@printerassist.shop</a>
+      </p>
+    </div>
+  </div>
+  <hr style="border-color:white; margin:20px 0;">
+  <p style="text-align:center; font-size:12px; margin:0; font-family:Arial, sans-serif;">
+    &copy; 2025 PrinterAssist. All rights reserved.
+  </p>
+</footer>
